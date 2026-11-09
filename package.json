@@ -1,0 +1,14 @@
+{
+  "name": "legacy-pixels",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Legacy Pixels Workforce Portal monorepo. Run these from the repository root; they forward to apps/portal.",
+  "scripts": {
+    "postinstall": "cd apps/portal && npm install --no-audit --no-fund",
+    "dev": "cd apps/portal && npm run dev",
+    "build": "cd apps/portal && npm run build",
+    "start": "cd apps/portal && npm run start",
+    "typecheck": "cd apps/portal && npm run typecheck",
+    "test": "cd apps/portal && npm test"
+  }
+}
